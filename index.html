@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza's Portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./h.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Hamza<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+        </select>
+
+
+
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/h.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/h.png" media="(min-width: 500px)">
+            <img src="./assets/images/h.png" alt="A man in a blue shirt with a happy expression" class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">I Design & Build Creative Products</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                5+ <strong>Years of Experience</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                50+ <strong>Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                15+ <strong>Happy Clients</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/banner.png" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+            Hi!I am a Computer Science graduate with a passion for creating visually appealing and functional digital experiences. Proficient in frontend web development, I specialize in crafting responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and frameworks such as node.js. Alongside my technical skills, I bring a creative edge as an experienced graphic designer, blending aesthetics with functionality to deliver seamless designs. Whether it's building interactive websites or designing compelling visuals, I thrive on turning ideas into reality and solving problems through innovation. Let's collaborate to bring your digital vision to life! 
+          </p>
+
+          <div class="btn-group">
+            <a href="index.html#contact">
+              <button class="btn btn-secondary">Hire me</button>
+            </a>
+          </div>
+
+          <button class="btn btn-primary"><a href="./HamzaAmjadResume (1).pdf" download>Download CV</a></button>
+        </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Skills Included?</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with those technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+                    <img src="./assets/images/html5.png" alt="HTML5 logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+                    <img src="./assets/images/css3.png" alt="CSS3 logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+                    <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <a href="https://getbootstrap.com/" target="_blank">
+                    <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Graphic Designing</div>
+
+                <div class="card-icon">
+                  <a href="https://en.wikipedia.org/wiki/Graphic_design" target="_blank">
+                    <img src="./assets/images/graphic.png" alt="Bootstrap logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+          <ul class="tools-list">
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <a href="https://code.visualstudio.com/" target="_blank">
+                    <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">
+                    <img src="./assets/images/command.png" alt="Command Line logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+
+                <div class="card-icon">
+                  <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+                    <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+
+                <div class="card-icon">
+                  <a href="https://helpx.adobe.com/support/xd.html" target="_blank">
+                    <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe Illustrator</div>
+
+                <div class="card-icon">
+                  <a href="https://helpx.adobe.com/support/xd.html" target="_blank">
+                    <img src="./assets/images/ai.png" alt="Adobe Illustrator logo">
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Works</p>
+
+              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+
+              <p class="section-text">
+                We made the best quality graphics products and Website Front-End Designs that serves for the long-term.
+                Well-documented, clean, easy and
+                elegant interface
+                helps any non-technical clients.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-1.png" class="w-100"
+                  alt="A company's logo with yellow and black color.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">UK Prepcenter Logo</h3>
+
+                <time class="publish-date" datetime="2023-04">April 2023</time>
+              </div>
+
+            </a>
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-2.png" class="w-100"
+                  alt="A sports logo in which a player is running.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Sports Logo</h3>
+
+                <time class="publish-date" datetime="2023-08">August 2023</time>
+              </div>
+
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-3.jpg" class="w-100" alt="Personal portfolio home page picture.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Personal Portfolio</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+          </li>
+
+
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-5.png" class="w-100"
+                  alt="A company's logo contains multi color shirt.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Astro Outfits Logo</h3>
+
+                <time class="publish-date" datetime="2023-05">May 2023</time>
+              </div>
+
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-4.png" class="w-100" alt="A visiting card with pink and black color.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Visiting Card</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-6.jpg" class="w-100" alt="Eid Card tempelate.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Eid Card</h3>
+
+                <time class="publish-date" datetime="2023-05">May 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-7.jpg" class="w-100"
+                  alt="A creative CV Design with blue color contrast.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Animated Login Page</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-8.png" class="w-100"
+                  alt="Animated login page picture contains multi color rings.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Animated Login Page</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-9.png" class="w-100" alt="A picture of red and black visiting card.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Visiting Card</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <button class="load-more">Load more work</button>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Have You Any Project? Please Drop a Message</h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  Khanewal Punjab, Pakistan
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:03248119016" class="contact-info">(92) 324 811 9016</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:hamzaamjad104@gmail.com" class="contact-info">dev.hamzaamjad@gmail.com</a>
+
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://web.facebook.com/hamza.amjad.73307" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="www.linkedin.com/in/hamza-amjad-a51454223?utm_sourec=share&utm_compaign=share_via&utm_content=profile" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://wa.me/+923248119016" target="_blank" class="contact-social-link">
+                    <div class="tooltip">WhatsApp</div>
+
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form" id="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="button" id="sendEmailbutton" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Dev Hamza<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2025 <a href="#">Hamza</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+  <script>
+    const languageSelect = document.getElementById('language-select');
+    const enContent = document.getElementById('en-content');
+    const esContent = document.getElementById('es-content');
+    const frContent = document.getElementById('fr-content');
+
+    languageSelect.addEventListener('change', function () {
+      const selectedLanguage = languageSelect.value;
+
+      // Hide all content
+      enContent.style.display = 'none';
+      esContent.style.display = 'none';
+      frContent.style.display = 'none';
+
+      // Show content based on selected language
+      if (selectedLanguage === 'en') {
+        enContent.style.display = 'block';
+      } else if (selectedLanguage === 'es') {
+        esContent.style.display = 'block';
+      } else if (selectedLanguage === 'fr') {
+        frContent.style.display = 'block';
+      }
+    });
+  </script>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
